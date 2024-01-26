@@ -1,4 +1,4 @@
-rootProject.name = "lafeuille-boms"
+rootProject.name = "lafeuille-dependencies"
 
 include("lafeuille-test-bom")
 include("lafeuille-spring-bom")
