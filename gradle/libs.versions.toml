@@ -1,14 +1,47 @@
 [versions]
+akka = "2.8.5"
 assertj = "3.25.2"
+aws-sdk-v1 = "1.12.644"
+aws-sdk-v2 = "2.23.10"
+cucumber = "7.15.0"
+drools = "9.44.0.Final"
+dropwizard = "4.0.5"
+google-cloud = "26.30.0"
+jackson = "2.16.1"
+jakarta = "10.0.0"
 junit = "5.10.1"
-testcontainers = "1.19.4"
+log4j = "2.22.1"
+micrometer = "1.12.2"
+micronaut = "3.10.3"
+okhttp = "4.12.0"
+protobuf = "3.25.2"
+quarkus = "3.7.0"
+r2dbc = "Borca-SR2"
 spring-boot = "3.2.2"
 spring-cloud = "3.2"
+testcontainers = "1.19.4"
 vertx = "4.5.1"
 
 [libraries]
+akka-bom = { module = "com.typesafe.akka:akka-bom", version.ref = "akka" }
 assertj-bom = { module = "org.assertj:assertj-bom", version.ref = "assertj" }
+aws-sdk-v1-bom = { module = "com.amazonaws:aws-java-sdk-bom", version.ref = "aws-sdk-v1" }
+aws-sdk-v2-bom = { module = "software.amazon.awssdk:bom", version.ref = "aws-sdk-v2" }
+cucumber-bom = { module = "io.cucumber:cucumber-bom", version.ref = "cucumber" }
+drools-bom = { module = "org.drools:drools-bom", version.ref = "drools" }
+dropwizard-bom = { module = "io.dropwizard:dropwizard-bom", version.ref = "dropwizard" }
+google-cloud-bom = { module = "com.google.cloud:libraries-bom", version.ref = "google-cloud" }
+jackson-bom = { module = "com.fasterxml.jackson:jackson-bom ", version.ref = "jackson" }
+jakarta-bom = { module = "jakarta.platform:jakarta.jakartaee-bom", version.ref = "jakarta" }
 junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+log4j-bom = { module = "org.apache.logging.log4j:log4j-bom", version.ref = "log4j" }
+micrometer-bom = { module = "io.micrometer:micrometer-bom", version.ref = "micrometer" }
+micronaut-bom = { module = "io.micronaut:micronaut-bom", version.ref = "micronaut" }
+okhttp-bom = { module = "com.squareup.okhttp3:okhttp-bom", version.ref = "okhttp" }
+protobuf-bom = { module = "com.google.protobuf:protobuf-bom", version.ref = "protobuf" }
+quarkus-bom = { module = "io.quarkus:quarkus-bom", version.ref = "quarkus" }
+r2dbc-bom = { module = "io.r2dbc:r2dbc-bom", version.ref = "r2dbc" }
 spring-boot-bom = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
 spring-cloud-bom = { module = "org.springframework.cloud:spring-cloud-dependencies", version.ref = "spring-cloud" }
 testcontainers-bom = { module = "org.testcontainers:testcontainers-bom", version.ref = "testcontainers" }
+vertx-bom = { module = "io.vertx:vertx-stack-depchain", version.ref = "vertx" }
