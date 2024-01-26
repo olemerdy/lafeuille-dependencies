@@ -1,0 +1,14 @@
+[versions]
+assertj = "3.25.2"
+junit = "5.10.1"
+testcontainers = "1.19.4"
+spring-boot = "3.2.2"
+spring-cloud = "3.2"
+vertx = "4.5.1"
+
+[libraries]
+assertj-bom = { module = "org.assertj:assertj-bom", version.ref = "assertj" }
+junit-bom = { module = "org.junit:junit-bom", version.ref = "junit" }
+spring-boot-bom = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
+spring-cloud-bom = { module = "org.springframework.cloud:spring-cloud-dependencies", version.ref = "spring-cloud" }
+testcontainers-bom = { module = "org.testcontainers:testcontainers-bom", version.ref = "testcontainers" }
