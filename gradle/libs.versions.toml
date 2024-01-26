@@ -30,6 +30,7 @@ aws-sdk-v2-bom = { module = "software.amazon.awssdk:bom", version.ref = "aws-sdk
 cucumber-bom = { module = "io.cucumber:cucumber-bom", version.ref = "cucumber" }
 drools-bom = { module = "org.drools:drools-bom", version.ref = "drools" }
 dropwizard-bom = { module = "io.dropwizard:dropwizard-bom", version.ref = "dropwizard" }
+dropwizard-dependencies = { module = "io.dropwizard:dropwizard-dependencies", version.ref = "dropwizard" }
 google-cloud-bom = { module = "com.google.cloud:libraries-bom", version.ref = "google-cloud" }
 jackson-bom = { module = "com.fasterxml.jackson:jackson-bom ", version.ref = "jackson" }
 jakarta-bom = { module = "jakarta.platform:jakarta.jakartaee-bom", version.ref = "jakarta" }
@@ -41,7 +42,7 @@ okhttp-bom = { module = "com.squareup.okhttp3:okhttp-bom", version.ref = "okhttp
 protobuf-bom = { module = "com.google.protobuf:protobuf-bom", version.ref = "protobuf" }
 quarkus-bom = { module = "io.quarkus:quarkus-bom", version.ref = "quarkus" }
 r2dbc-bom = { module = "io.r2dbc:r2dbc-bom", version.ref = "r2dbc" }
-spring-boot-bom = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
-spring-cloud-bom = { module = "org.springframework.cloud:spring-cloud-dependencies", version.ref = "spring-cloud" }
+spring-boot-dependencies = { module = "org.springframework.boot:spring-boot-dependencies", version.ref = "spring-boot" }
+spring-cloud-dependencies = { module = "org.springframework.cloud:spring-cloud-dependencies", version.ref = "spring-cloud" }
 testcontainers-bom = { module = "org.testcontainers:testcontainers-bom", version.ref = "testcontainers" }
 vertx-bom = { module = "io.vertx:vertx-stack-depchain", version.ref = "vertx" }
