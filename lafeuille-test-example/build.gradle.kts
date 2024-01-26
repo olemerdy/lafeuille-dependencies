@@ -3,7 +3,7 @@ plugins {
 }
 
 dependencies {
-    implementation(platform(libs.junit.bom))
+    implementation(platform(project(":lafeuille-test-bom")))
 
     testImplementation("org.junit.jupiter:junit-jupiter-api")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")

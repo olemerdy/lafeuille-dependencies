@@ -1,9 +1,14 @@
 plugins {
     `java-platform`
+    `maven-publish`
+}
+
+javaPlatform {
+    allowDependencies()
 }
 
 dependencies {
-    platform(libs.assertj.bom)
-    platform(libs.junit.bom)
-    platform(libs.testcontainers.bom)
+    api(platform(libs.assertj.bom))
+    api(platform(libs.junit.bom))
+    api(platform(libs.testcontainers.bom))
 }
